@@ -2,6 +2,13 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: lightblue;
+  }
+
+  .navbar {
+    background-color: darkorchid;
+    font-size: 18px;
+    color: darkslategray;
   }
 
   .container {
@@ -20,11 +27,11 @@ html, body {
   }
   
   .note-textarea, .note-title {
-    color: #000000;
-    background-color: lightblue;
+    color: slategray;
+    background-color: violet;
     width: 80%;
     outline: none;
-    border-radius: 5px;
+    border-radius: 2px;
     border: none;
     margin: 5px;
     padding:5px;
@@ -32,7 +39,7 @@ html, body {
   
   .note-textarea {
     resize: none;
-    height: calc(100% - 63px);
+    height: 85%;
     padding-top: 15px;
   }
   
@@ -43,7 +50,7 @@ html, body {
   }
   
   .note-title:read-only, .note-textarea:read-only {
-    color: #757575;
+    color: darkgrey;
   }
   
   .list-container .card {
@@ -75,7 +82,6 @@ html, body {
     border-right: none;
     padding: 20px;
     cursor: pointer;
-    background-color: lightgreen;
     border: none;
     margin:15px;
   }
